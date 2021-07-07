@@ -154,6 +154,22 @@ graphdebug.html may contain plain debugging information
 of the example above:
 
 ![alt text](./doc/images/graphdebug.png "Visualization of semantic parser and prover")
+## Anaphora
+
+If you want to solve a problem with anaphora, you need to additionally install [neuralcoref](https://github.com/huggingface/neuralcoref) and [spacy](https://spacy.io/)
+
+After that, you need to run the following command to find the corresponding words in the sentences.
+
+```
+python scripts/coref.py sentences.tok > sentences.coref.json
+```
+
+Then you can run the othe command with the following flags
+
+```
+python semparse.py sentences.xml semantic_templates_en_emnlp2015.yaml sentences.sem.xml --coref sentences.coref.json --rep sentences.rep.json
+python prove.py sentences.sem.xml --graph_out graphdebug.html --coref sentences.coref.json --rep sentences.rep.json
+```
 
 ## Visualization
 
