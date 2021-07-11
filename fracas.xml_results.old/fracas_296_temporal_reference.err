@@ -1,0 +1,54 @@
+Traceback (most recent call last):
+  File "scripts/prove.py", line 66, in <module>
+    main()
+  File "scripts/prove.py", line 57, in main
+    inference_result, coq_scripts = prove_doc(doc, args.abduction)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_tools.py", line 109, in prove_doc
+    dynamic_library_str = get_dynamic_library_from_doc(doc, formulas)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 148, in get_dynamic_library_from_doc
+    coq_lib_augmented = build_dynamic_library(formulas, nltk_sig)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 188, in build_dynamic_library
+    signatures = [resolve_types(e) for e in exprs_logic]
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 188, in <listcomp>
+    signatures = [resolve_types(e) for e in exprs_logic]
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in resolve_types
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1546, in visit
+    return combinator([function(self.term)])
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in <lambda>
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in resolve_types
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1703, in visit
+    return combinator([function(self.first), function(self.second)])
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in <lambda>
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in resolve_types
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1546, in visit
+    return combinator([function(self.term)])
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in <lambda>
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in resolve_types
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1703, in visit
+    return combinator([function(self.first), function(self.second)])
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in <lambda>
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in resolve_types
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1703, in visit
+    return combinator([function(self.first), function(self.second)])
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 122, in <lambda>
+    signature = expr.visit(lambda e: resolve_types(e, signature),
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 125, in resolve_types
+    signature = remove_colliding_predicates(signature, expr)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_types.py", line 91, in remove_colliding_predicates
+    expr.typecheck(signature)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 980, in typecheck
+    self._set_type(signature=sig)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1735, in _set_type
+    self.first._set_type(TRUTH_TYPE, signature)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3/lib/python3.8/site-packages/nltk/sem/logic.py", line 1586, in _set_type
+    self.term._set_type(other_type.second, signature)
+AttributeError: 'TruthValueType' object has no attribute 'second'

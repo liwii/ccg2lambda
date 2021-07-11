@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 2,
+                "line_num": 0,
+                "text": "The PC-6082"
+            },
+            "mentions": [
+                {
+                    "start": 2,
+                    "end": 4,
+                    "line_num": 1,
+                    "text": "The PC-6082"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

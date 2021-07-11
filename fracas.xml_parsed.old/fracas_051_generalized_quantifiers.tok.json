@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 1,
+                "end": 2,
+                "line_num": 0,
+                "text": "Canadian"
+            },
+            "mentions": [
+                {
+                    "start": 1,
+                    "end": 2,
+                    "line_num": 1,
+                    "text": "Canadian"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "scripts/prove.py", line 77, in <module>
+    main()
+  File "scripts/prove.py", line 55, in main
+    with open(args.replacements, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'fracas.xml_results/fracas_343_attitudes.rep.json'

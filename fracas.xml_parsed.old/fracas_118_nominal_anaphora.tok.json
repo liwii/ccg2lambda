@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 2,
+                "line_num": 0,
+                "text": "Every student"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 4,
+                    "line_num": 0,
+                    "text": "her"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

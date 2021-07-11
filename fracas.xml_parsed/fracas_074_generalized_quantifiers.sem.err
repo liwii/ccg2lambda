@@ -1,0 +1,25 @@
+/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_index.py:164: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  loaded = yaml.load(infile)
+Traceback (most recent call last):
+  File "scripts/semparse.py", line 134, in <module>
+    main()
+  File "scripts/semparse.py", line 98, in main
+    sentence, semantic_index, tree_index, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 86, in assign_semantics_to_ccg
+    assign_semantics(ccg_tree, semantic_index, tokens, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 193, in assign_semantics
+    assign_semantics(child, semantic_index, tokens, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 193, in assign_semantics
+    assign_semantics(child, semantic_index, tokens, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 193, in assign_semantics
+    assign_semantics(child, semantic_index, tokens, coref_sentence, sentence_num, replacements)
+  [Previous line repeated 1 more times]
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 188, in assign_semantics
+    assign_semantics(ccg_tree[0], semantic_index, tokens, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/ccg2lambda_tools.py", line 184, in assign_semantics
+    semantics = semantic_index.get_semantic_representation(ccg_tree, tokens, coref_sentence, sentence_num, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_index.py", line 90, in get_semantic_representation
+    replace_mention(semantics, mention)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 57, in replace_mention
+    raise Exception
+Exception

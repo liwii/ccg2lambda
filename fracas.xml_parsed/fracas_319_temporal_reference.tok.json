@@ -1,0 +1,83 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 1,
+                "end": 2,
+                "line_num": 0,
+                "text": "APCOM"
+            },
+            "mentions": [
+                {
+                    "start": 1,
+                    "end": 2,
+                    "line_num": 1,
+                    "text": "APCOM"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 1,
+                "end": 7,
+                "line_num": 0,
+                "text": "APCOM bought its present office building"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 4,
+                    "line_num": 0,
+                    "text": "its"
+                },
+                {
+                    "start": 8,
+                    "end": 9,
+                    "line_num": 0,
+                    "text": "it"
+                },
+                {
+                    "start": 1,
+                    "end": 7,
+                    "line_num": 1,
+                    "text": "APCOM bought its present office building"
+                },
+                {
+                    "start": 3,
+                    "end": 4,
+                    "line_num": 1,
+                    "text": "its"
+                },
+                {
+                    "start": 7,
+                    "end": 8,
+                    "line_num": 1,
+                    "text": "it"
+                },
+                {
+                    "start": 14,
+                    "end": 15,
+                    "line_num": 1,
+                    "text": "it"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 3,
+                "end": 7,
+                "line_num": 0,
+                "text": "its present office building"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 7,
+                    "line_num": 1,
+                    "text": "its present office building"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

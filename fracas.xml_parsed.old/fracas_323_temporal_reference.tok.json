@@ -1,0 +1,27 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 3,
+                "line_num": 0,
+                "text": "No one gambling"
+            },
+            "mentions": [
+                {
+                    "start": 6,
+                    "end": 7,
+                    "line_num": 0,
+                    "text": "he"
+                },
+                {
+                    "start": 5,
+                    "end": 6,
+                    "line_num": 1,
+                    "text": "he"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

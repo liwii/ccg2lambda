@@ -1,0 +1,21 @@
+{
+    "hypothesis": [],
+    "conclusion": [
+        {
+            "main": {
+                "start": 6,
+                "end": 7,
+                "line_num": 0,
+                "text": "Europe"
+            },
+            "mentions": [
+                {
+                    "start": 11,
+                    "end": 12,
+                    "line_num": 0,
+                    "text": "Europe"
+                }
+            ]
+        }
+    ]
+}

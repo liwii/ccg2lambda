@@ -1,0 +1,60 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 4,
+                "line_num": 0,
+                "text": "Nobody who is asleep"
+            },
+            "mentions": [
+                {
+                    "start": 7,
+                    "end": 8,
+                    "line_num": 0,
+                    "text": "he"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 1,
+                "end": 3,
+                "line_num": 1,
+                "text": "some people"
+            },
+            "mentions": [
+                {
+                    "start": 5,
+                    "end": 6,
+                    "line_num": 1,
+                    "text": "they"
+                },
+                {
+                    "start": 10,
+                    "end": 11,
+                    "line_num": 1,
+                    "text": "they"
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        {
+            "main": {
+                "start": 0,
+                "end": 2,
+                "line_num": 0,
+                "text": "Some people"
+            },
+            "mentions": [
+                {
+                    "start": 4,
+                    "end": 5,
+                    "line_num": 0,
+                    "text": "they"
+                }
+            ]
+        }
+    ]
+}

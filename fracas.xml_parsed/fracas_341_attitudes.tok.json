@@ -1,0 +1,43 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 2,
+                "end": 3,
+                "line_num": 0,
+                "text": "Jones"
+            },
+            "mentions": [
+                {
+                    "start": 1,
+                    "end": 2,
+                    "line_num": 1,
+                    "text": "Jones"
+                },
+                {
+                    "start": 6,
+                    "end": 7,
+                    "line_num": 1,
+                    "text": "his"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 4,
+                "end": 6,
+                "line_num": 0,
+                "text": "the contract"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 5,
+                    "line_num": 1,
+                    "text": "the contract"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

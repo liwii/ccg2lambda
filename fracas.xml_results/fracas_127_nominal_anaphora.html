@@ -1,0 +1,696 @@
+  <!doctype html>
+  <html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>CCG to Lambda conversion</title>
+    <style>
+      body {
+        font-size: 1em;
+      }
+    </style>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+  <body>
+  <p>Premise 1: Smith took a machine on Tuesday , and Jones took a machine on Wednesday .</p>
+<math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mo>rp</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Smith</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>took</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>a</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/N  </mi>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>machine</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP  </mi>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>on</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>((S\NP)\(S\NP))/NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Tuesday</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[X=true]  </mi>
+  </mrow>
+</msub>
+<msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)\(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[X=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>lp</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>,</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>true  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>conj</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>and</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>conj  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Jones</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>took</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>a</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/N  </mi>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>machine</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>on</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>(NP\NP)/NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Wednesday</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+<msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+<msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>.</mtext>
+</mrow>
+  <mrow></mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></math><p>Premise 2: They put them in the lobby .</p>
+<math xmlns='http://www.w3.org/1998/Math/MathML'><mrow><mo>rp</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>They</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>put</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>((S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/PP)/NP  </mi>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>them</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/PP  </mi>
+</mrow>
+</mfrac>
+</mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>in</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>PP/NP  </mi>
+</mrow>
+</mfrac>
+<mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>the</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/N  </mi>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>lobby</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>PP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>.</mtext>
+</mrow>
+  <mrow></mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></math><p>Conclusion: Smith and Jones put two machines in the lobby .</p>
+<math xmlns='http://www.w3.org/1998/Math/MathML'><mfrac linethickness='0px'>
+  <mrow><mrow><mo>fc</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>tr</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Smith</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>_smith</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.exists x.((x = _smith) & F1(_smith) & F2(_smith))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>conj</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>and</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>conj  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>_and</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>Jones</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>_jones</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.exists x.((x = _jones) & F1(_jones) & F2(_jones))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\Q2 F1 F2.(Q2(F1,F2) & exists x.((x = _jones) & F1(_jones) & F2(_jones)))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.(exists x.((x = _smith) & F1(_smith) & F2(_smith)) & exists x.((x = _jones) & F1(_jones) & F2(_jones)))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[X=true]  </mi>
+  </mrow>
+</msub>
+<msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[X=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\V.V(\F1 F2.(exists x.((x = _smith) & F1(_smith) & F2(_smith)) & exists x.((x = _jones) & F1(_jones) & F2(_jones))))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>put</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>((S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/PP)/NP  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\Q1 F Q2.Q2(\w.TrueP,\x.(Q1(\w.TrueP,\y._put(x,y)) & F(x)))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>rp</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>ba</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>lex</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>two</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N/N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F x.(_two(x) & F(x))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>machines</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\x._machine(x)</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\x.(_two(x) & _machine(x))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.exists x.(_two(x) & _machine(x) & F1(x) & F2(x))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>in</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>(NP\NP)/NP  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\Q1 Q2 F1.Q2(\x.(Q1(\w.TrueP,\y._in(x,y)) & F1(x)))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mrow><mo>fa</mo><mfrac linethickness='3px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>the</mtext>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2 F3.exists x.(F1(x) & F2(x) & F3(x))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>lobby</mtext>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>N  </mi>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\x._lobby(x)</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[nb=true]  </mi>
+  </mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F2 F3.exists x.(_lobby(x) & F2(x) & F3(x))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP\NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\Q2 F1.Q2(\x.(exists z8.(_lobby(z8) & TrueP & _in(x,z8)) & F1(x)))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.exists x.(_two(x) & _machine(x) & exists z8.(_lobby(z8) & TrueP & _in(x,z8)) & F1(x) & F2(x))</mtext>
+</mrow>
+</mfrac>
+<mfrac linethickness='0px'>
+  <mrow><mfrac linethickness='0px'>
+  <mrow><mtext  fontsize='1.0' color='Black'>.</mtext>
+</mrow>
+  <mrow></mrow>
+</mfrac>
+</mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\X.X</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow>  <mi mathvariant='italic' fontsize='1.0' color='Red'>NP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F1 F2.exists x.(_two(x) & _machine(x) & exists z8.(_lobby(z8) & TrueP & _in(x,z8)) & F1(x) & F2(x))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>(S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>\NP)/PP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\F Q2.Q2(\w.TrueP,\x.(exists z9.(_two(z9) & _machine(z9) & exists z8.(_lobby(z8) & TrueP & _in(z9,z8)) & TrueP & _put(x,z9)) & F(x)))</mtext>
+</mrow>
+</mfrac>
+</mrow>
+  <mrow><msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>S  </mi>
+  <mrow>
+    <mi mathvariant='italic' fontsize='0.8' color='Purple'>[dcl=true]  </mi>
+  </mrow>
+</msub>
+  <mi mathvariant='italic' fontsize='1.0' color='Red'>/PP  </mi>
+</mrow>
+</mfrac>
+</mrow></mrow>
+  <mrow><mtext  fontsize='1.0' color='Blue'>\X0.(exists x.((x = _smith) & TrueP & exists z9.(_two(z9) & _machine(z9) & exists z8.(_lobby(z8) & TrueP & _in(z9,z8)) & TrueP & _put(_smith,z9)) & X0(_smith)) & exists x.((x = _jones) & TrueP & exists z9.(_two(z9) & _machine(z9) & exists z8.(_lobby(z8) & TrueP & _in(z9,z8)) & TrueP & _put(_jones,z9)) & X0(_jones)))</mtext>
+</mrow>
+</mfrac>
+</math>  </body>
+  </html>
+  

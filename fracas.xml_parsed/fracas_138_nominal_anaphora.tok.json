@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 3,
+                "end": 6,
+                "line_num": 0,
+                "text": "a cover page"
+            },
+            "mentions": [
+                {
+                    "start": 4,
+                    "end": 7,
+                    "line_num": 2,
+                    "text": "the cover page"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

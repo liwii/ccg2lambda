@@ -1,0 +1,21 @@
+{
+    "hypothesis": [],
+    "conclusion": [
+        {
+            "main": {
+                "start": 3,
+                "end": 4,
+                "line_num": 0,
+                "text": "Jones"
+            },
+            "mentions": [
+                {
+                    "start": 9,
+                    "end": 10,
+                    "line_num": 0,
+                    "text": "Jones"
+                }
+            ]
+        }
+    ]
+}

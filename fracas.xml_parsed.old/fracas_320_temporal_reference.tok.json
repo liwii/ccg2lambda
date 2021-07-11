@@ -1,0 +1,56 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 1,
+                "end": 2,
+                "line_num": 0,
+                "text": "Jones"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 4,
+                    "line_num": 0,
+                    "text": "his"
+                },
+                {
+                    "start": 9,
+                    "end": 10,
+                    "line_num": 0,
+                    "text": "he"
+                },
+                {
+                    "start": 12,
+                    "end": 13,
+                    "line_num": 0,
+                    "text": "he"
+                },
+                {
+                    "start": 19,
+                    "end": 20,
+                    "line_num": 0,
+                    "text": "his"
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        {
+            "main": {
+                "start": 5,
+                "end": 6,
+                "line_num": 0,
+                "text": "Jones"
+            },
+            "mentions": [
+                {
+                    "start": 15,
+                    "end": 16,
+                    "line_num": 0,
+                    "text": "his"
+                }
+            ]
+        }
+    ]
+}

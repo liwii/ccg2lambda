@@ -1,0 +1,37 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 4,
+                "line_num": 0,
+                "text": "A few committee members"
+            },
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 3,
+                    "line_num": 1,
+                    "text": "All committee members"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 6,
+                "end": 7,
+                "line_num": 0,
+                "text": "Scandinavia"
+            },
+            "mentions": [
+                {
+                    "start": 8,
+                    "end": 9,
+                    "line_num": 2,
+                    "text": "Scandinavia"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

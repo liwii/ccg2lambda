@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 2,
+                "end": 4,
+                "line_num": 0,
+                "text": "the demonstration"
+            },
+            "mentions": [
+                {
+                    "start": 5,
+                    "end": 7,
+                    "line_num": 1,
+                    "text": "the demonstration"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

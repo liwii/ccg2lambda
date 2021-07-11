@@ -1,0 +1,43 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 1,
+                "end": 2,
+                "line_num": 0,
+                "text": "European"
+            },
+            "mentions": [
+                {
+                    "start": 1,
+                    "end": 2,
+                    "line_num": 1,
+                    "text": "European"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 6,
+                "end": 7,
+                "line_num": 0,
+                "text": "Europe"
+            },
+            "mentions": [
+                {
+                    "start": 9,
+                    "end": 10,
+                    "line_num": 2,
+                    "text": "Europe"
+                },
+                {
+                    "start": 14,
+                    "end": 15,
+                    "line_num": 2,
+                    "text": "Europe"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

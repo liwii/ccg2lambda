@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "scripts/prove.py", line 77, in <module>
+    main()
+  File "scripts/prove.py", line 68, in main
+    inference_result, coq_scripts = prove_doc(doc, args.abduction, coref, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_tools.py", line 120, in prove_doc
+    prove_statements(premises, conclusion, dynamic_library_str, coref, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_tools.py", line 207, in prove_statements
+    premise_formula = resolve_anaphora(premise_formula, 'hypothesis', coref, replacements)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_tools.py", line 179, in resolve_anaphora
+    formula = replace_with_equality(formula, mention_id, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 103, in replace_with_equality
+    formula.term = replace_with_equality(formula.term, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 103, in replace_with_equality
+    formula.term = replace_with_equality(formula.term, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 103, in replace_with_equality
+    formula.term = replace_with_equality(formula.term, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 108, in replace_with_equality
+    formula.second = replace_with_equality(formula.second, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 107, in replace_with_equality
+    formula.first = replace_with_equality(formula.first, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 107, in replace_with_equality
+    formula.first = replace_with_equality(formula.first, func_name, eq_var)
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/coref_utils.py", line 98, in replace_with_equality
+    return EqualityExpression(formula.argument, IndividualVariableExpression(Variable(eq_var)))
+  File "/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/py3.7/lib/python3.7/site-packages/nltk/sem/logic.py", line 564, in __init__
+    assert isinstance(name, string_types), "%s is not a string" % name
+AssertionError: None is not a string

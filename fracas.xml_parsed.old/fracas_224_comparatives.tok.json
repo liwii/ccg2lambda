@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 6,
+                "end": 10,
+                "line_num": 0,
+                "text": "the ITEL-XZ"
+            },
+            "mentions": [
+                {
+                    "start": 2,
+                    "end": 6,
+                    "line_num": 1,
+                    "text": "The ITEL-XZ"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

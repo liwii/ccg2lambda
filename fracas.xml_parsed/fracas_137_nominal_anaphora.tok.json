@@ -1,0 +1,82 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 2,
+                "end": 4,
+                "line_num": 0,
+                "text": "100 companies"
+            },
+            "mentions": [
+                {
+                    "start": 4,
+                    "end": 6,
+                    "line_num": 1,
+                    "text": "the companies"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 0,
+                "end": 1,
+                "line_num": 1,
+                "text": "ICM"
+            },
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 1,
+                    "line_num": 2,
+                    "text": "It"
+                },
+                {
+                    "start": 9,
+                    "end": 10,
+                    "line_num": 2,
+                    "text": "its"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 0,
+                "end": 6,
+                "line_num": 3,
+                "text": "Each of the other 99 companies"
+            },
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 1,
+                    "line_num": 4,
+                    "text": "They"
+                },
+                {
+                    "start": 5,
+                    "end": 6,
+                    "line_num": 4,
+                    "text": "them"
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        {
+            "main": {
+                "start": 4,
+                "end": 6,
+                "line_num": 0,
+                "text": "a computer"
+            },
+            "mentions": [
+                {
+                    "start": 11,
+                    "end": 12,
+                    "line_num": 0,
+                    "text": "it"
+                }
+            ]
+        }
+    ]
+}

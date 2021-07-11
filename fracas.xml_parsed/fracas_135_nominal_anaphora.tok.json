@@ -1,0 +1,38 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 6,
+                "line_num": 0,
+                "text": "Every customer who owns a computer"
+            },
+            "mentions": [
+                {
+                    "start": 11,
+                    "end": 12,
+                    "line_num": 0,
+                    "text": "it"
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        {
+            "main": {
+                "start": 0,
+                "end": 1,
+                "line_num": 0,
+                "text": "MFI"
+            },
+            "mentions": [
+                {
+                    "start": 7,
+                    "end": 8,
+                    "line_num": 0,
+                    "text": "its"
+                }
+            ]
+        }
+    ]
+}

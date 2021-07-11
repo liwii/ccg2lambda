@@ -1,0 +1,21 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 5,
+                "end": 8,
+                "line_num": 0,
+                "text": "four o '"
+            },
+            "mentions": [
+                {
+                    "start": 5,
+                    "end": 8,
+                    "line_num": 1,
+                    "text": "five o '"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

@@ -1,0 +1,37 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 2,
+                "end": 7,
+                "line_num": 0,
+                "text": "the chairman of the department"
+            },
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 5,
+                    "line_num": 1,
+                    "text": "The chairman of the department"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 5,
+                "end": 7,
+                "line_num": 0,
+                "text": "the department"
+            },
+            "mentions": [
+                {
+                    "start": 3,
+                    "end": 5,
+                    "line_num": 1,
+                    "text": "the department"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}

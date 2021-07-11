@@ -1,0 +1,38 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 1,
+                "end": 4,
+                "line_num": 0,
+                "text": "most two tenors"
+            },
+            "mentions": [
+                {
+                    "start": 6,
+                    "end": 7,
+                    "line_num": 0,
+                    "text": "their"
+                }
+            ]
+        }
+    ],
+    "conclusion": [
+        {
+            "main": {
+                "start": 2,
+                "end": 10,
+                "line_num": 0,
+                "text": "tenors who will contribute their fees to charity"
+            },
+            "mentions": [
+                {
+                    "start": 6,
+                    "end": 7,
+                    "line_num": 0,
+                    "text": "their"
+                }
+            ]
+        }
+    ]
+}

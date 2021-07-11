@@ -1,0 +1,2 @@
+/Users/ryuukouki/UTokyo/4S/ynk/ccg2lambda/scripts/semantic_index.py:164: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  loaded = yaml.load(infile)

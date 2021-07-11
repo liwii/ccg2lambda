@@ -1,0 +1,21 @@
+{
+    "hypothesis": [],
+    "conclusion": [
+        {
+            "main": {
+                "start": 7,
+                "end": 9,
+                "line_num": 0,
+                "text": "the contract"
+            },
+            "mentions": [
+                {
+                    "start": 12,
+                    "end": 14,
+                    "line_num": 0,
+                    "text": "the contract"
+                }
+            ]
+        }
+    ]
+}

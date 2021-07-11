@@ -1,0 +1,53 @@
+{
+    "hypothesis": [
+        {
+            "main": {
+                "start": 0,
+                "end": 1,
+                "line_num": 0,
+                "text": "John"
+            },
+            "mentions": [
+                {
+                    "start": 2,
+                    "end": 3,
+                    "line_num": 0,
+                    "text": "his"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 0,
+                "end": 4,
+                "line_num": 0,
+                "text": "John and his colleagues"
+            },
+            "mentions": [
+                {
+                    "start": 0,
+                    "end": 1,
+                    "line_num": 1,
+                    "text": "They"
+                }
+            ]
+        },
+        {
+            "main": {
+                "start": 6,
+                "end": 8,
+                "line_num": 0,
+                "text": "a meeting"
+            },
+            "mentions": [
+                {
+                    "start": 2,
+                    "end": 3,
+                    "line_num": 1,
+                    "text": "it"
+                }
+            ]
+        }
+    ],
+    "conclusion": []
+}
